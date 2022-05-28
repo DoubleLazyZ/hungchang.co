@@ -4,62 +4,97 @@
   
   <url>
     <loc>https://hungchang.co/categories/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hungchang.co/tags/node/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hungchang.co/categories/node/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hungchang.co/series/node.js/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hungchang.co/2022/05/node-path/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hungchang.co/posts/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hungchang.co/series/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hungchang.co/tags/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hungchang.co/tags/typescript/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hungchang.co/series/typescript/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hungchang.co/categories/typescript/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hungchang.co/2022/05/typescriptbasic/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hungchang.co/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hungchang.co/tags/node/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hungchang.co/categories/node/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hungchang.co/series/node.js/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hungchang.co/2022/05/nodestarter/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hungchang.co/2022/05/node-path/</loc>
     <lastmod>2022-05-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

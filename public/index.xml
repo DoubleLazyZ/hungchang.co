@@ -6,10 +6,28 @@
     <description>Recent content on Wyatt的筆記</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0</copyright>
-    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 May 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hungchang.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TypeScript</title>
+      <link>https://hungchang.co/2022/05/typescriptbasic/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/typescriptbasic/</guid>
+      <description>初學TypeScript 原本想用Go學習後端，但是大家建議先學好TS並且加上Node.js練習，等到熟悉了再學習Go，加上工作剛好 未來有需求</description>
+    </item>
+    
+    <item>
+      <title>Node學習-Server、Stream/Buffer</title>
+      <link>https://hungchang.co/2022/05/nodestarter/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/nodestarter/</guid>
+      <description>初學Node HTTP,HTTPS 超文本傳輸協定，瀏覽器與伺服器交換資料的協定。 Http: Hyper Text Transfer Protocol Https: Hyper Text Transfer Protocol Secure。 HTTP + Data Encryption (during Transmission)。 Node</description>
+    </item>
     
     <item>
       <title>Node模組-path</title>

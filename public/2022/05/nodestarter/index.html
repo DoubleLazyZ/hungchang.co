@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>
-        自我介紹 - Wyatt的筆記
+        Node學習-Server、Stream/Buffer - Wyatt的筆記
       </title>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,29 +20,30 @@
     <meta http-equiv="window-target" content="_top" />
     
     
-    <meta name="description" content="我是wyatt，前端工程師" />
+    <meta name="description" content="Node學習-Server、Stream/Buffer" />
     <meta name="generator" content="Hugo 0.92.2 with theme pure" />
-    <title>自我介紹 - Wyatt的筆記</title>
+    <title>Node學習-Server、Stream/Buffer - Wyatt的筆記</title>
     
     
     <link rel="stylesheet" href="https://hungchang.co/css/style.min.e64d754037c0ee0ec4e20ab1d6f07740ace61729bc03850559b8caa21ae4a597.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-    <meta property="og:title" content="自我介紹" />
-<meta property="og:description" content="我是wyatt，前端工程師" />
+    <meta property="og:title" content="Node學習-Server、Stream/Buffer" />
+<meta property="og:description" content="Node學習-Server、Stream/Buffer" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hungchang.co/about/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2022-05-23T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-05-23T00:00:00+00:00" />
+<meta property="og:url" content="https://hungchang.co/2022/05/nodestarter/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-05-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-05-27T00:00:00+00:00" />
+<meta property="og:see_also" content="https://hungchang.co/2022/05/node-path/" />
 
-<meta itemprop="name" content="自我介紹">
-<meta itemprop="description" content="我是wyatt，前端工程師"><meta itemprop="datePublished" content="2022-05-23T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-05-23T00:00:00+00:00" />
-<meta itemprop="wordCount" content="149">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="自我介紹"/>
-<meta name="twitter:description" content="我是wyatt，前端工程師"/>
+<meta itemprop="name" content="Node學習-Server、Stream/Buffer">
+<meta itemprop="description" content="Node學習-Server、Stream/Buffer"><meta itemprop="datePublished" content="2022-05-27T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-05-27T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1496">
+<meta itemprop="keywords" content="Node," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Node學習-Server、Stream/Buffer"/>
+<meta name="twitter:description" content="Node學習-Server、Stream/Buffer"/>
 
     <!--[if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -222,8 +223,8 @@
       <h1 itemprop="name">
   <a
     class="article-title"
-    href="/about/"
-    ><span style="background-color:#6667ab;width: auto; height:100%; padding: 4px 3px;margin: 5px;border-radius: 2px;color: white"></span>自我介紹</a
+    href="/2022/05/nodestarter/"
+    ><span style="background-color:#6667ab;width: auto; height:100%; padding: 4px 3px;margin: 5px;border-radius: 2px;color: white">[Node]</span>Node學習-Server、Stream/Buffer</a
   >
 </h1>
 
@@ -231,31 +232,146 @@
         
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://hungchang.co/about/" class="article-date">
-  <time datetime="2022-05-23 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-05-23</time>
+<a href="https://hungchang.co/2022/05/nodestarter/" class="article-date">
+  <time datetime="2022-05-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-05-27</time>
 </a>
 </span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/node/"> Node </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/node/"> Node </a>
+  </span>
 
-
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 149 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1496 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 3 minutes </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>這個網站主要是想記錄自己學習的筆記，<br>
-放到網路上來主要是練習部屬之外，<br>
-平常還能夠上來翻資料，不用擔心找不到自己的筆記，<br>
-也可以讓自己知道自己曾經學過什麼。</p>
-<p>這個網站是由<a href="https://gohugo.io/">Hugo</a>這個 framework 建出來的，<br>
-主要是因為它已經有漂亮的模板很方便及快速，<br>
-加上又支援 Markdown 語法深得我心。可以專注在記筆記上面。</p>
-<p>我的聯絡資訊:</p>
+      <h1 id="初學node">初學Node</h1>
+<h2 id="httphttps">HTTP,HTTPS</h2>
+<p>超文本傳輸協定，瀏覽器與伺服器交換資料的協定。</p>
 <ul>
-<li><a href="https://github.com/LazyWyatt">GitHub</a>.</li>
-<li><a href="https://twitter.com/LazyWyatt">Twitter</a>.</li>
-<li><a href="https://www.facebook.com/LazyWyatt/">Facebook</a>.</li>
-<li><a href="mailto:wyattlazy13@gmail.com">Email</a></li>
+<li>Http: Hyper Text Transfer Protocol</li>
+<li>Https: Hyper Text Transfer Protocol Secure。</li>
+<li>HTTP + Data Encryption (during Transmission)。</li>
 </ul>
+<h2 id="node創建一個簡單的伺服器">Node創建一個簡單的伺服器</h2>
+<p>app.js</p>
+<pre><code class="language-javascript">const http = require('http')
+
+function requestHandler(req, res, next) =&gt; {
+  console.log(req.url, req.method, req.headers);
+  // process.exit() // 這樣寫會結束程式
+  next(); // 這裡的next是一個函數，代表讓城市繼續進行下去，前往下一個中間件。
+}
+
+const server = http.createServer(requestHandler) // 這裡NodeJS會一直監聽有沒有request
+server.listen(3000); // server監聽port3000
+</code></pre>
+<p>當我們node.js app.js後，會開始解析程式，編譯之後註冊變數和函數，接著js引擎提供event loop，會持續</p>
+<p>等待event listener註冊，直到行程結束(這裡是指app.js程式結束才會結束)。</p>
+<h2 id="分離路徑">分離路徑</h2>
+<p>通常網頁會有不同的請求，通通把所有request判斷都寫在app.js會相當複雜不易閱讀，因此我們通常會根據不同功能拆分路徑。</p>
+<p>在根目錄下底下創建 routes.js，把我們剛才的requestHandler分離出去。</p>
+<pre><code class="language-javascript">const fs = require(&quot;fs&quot;); // node的資料夾裡的file system
+
+const requestHandler = (req, res) =&gt; {
+  // * sending response
+  const url = req.url; // 我們取得了使用者輸入的url
+  const method = req.method; // 使用者使用的請求方式(GET? POST?...)
+  if (url === &quot;/&quot;) {
+    res.write(&quot;&lt;html&gt;&quot;);
+    res.write(&quot;&lt;head&gt;&lt;title&gt;Enter Message&lt;/title&gt;&lt;/head&gt;&quot;);
+    res.write(
+      '&lt;body&gt;&lt;form action=&quot;/message&quot; method=&quot;POST&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;message&quot;&gt;&lt;button type=&quot;submit&quot;&gt;Send&lt;/button&gt;&lt;/form&gt;&lt;/body&gt;'
+    );
+    res.write(&quot;&lt;/html&gt;&quot;);
+    return res.end(); //結束傳送資料給客戶端，不繼續執行下去，後面不會繼續執行下去，因此我們在這裡return
+  }
+
+  if (url === &quot;/message&quot; &amp;&amp; method === &quot;POST&quot;) {
+    const body = [];
+    req.on(&quot;data&quot;, (chunk) =&gt; {
+      console.log(chunk);
+      body.push(chunk);
+    });
+
+    return req.on(&quot;end&quot;, () =&gt; {
+      const parsedBody = Buffer.concat(body).toString();
+      const message = parsedBody.split(&quot;=&quot;)[1];
+      console.log(parsedBody);
+      fs.writeFile(&quot;message.txt&quot;, message, (err) =&gt; {
+        res.statusCode = 302;
+        res.setHeader(&quot;Location&quot;, &quot;/&quot;);
+        return res.end();
+      });
+    });
+  }
+  res.setHeader(&quot;Content-Type&quot;, &quot;text/html&quot;);
+  res.write(&quot;&lt;html&gt;&quot;);
+  res.write(&quot;&lt;head&gt;&lt;title&gt;My First Page&lt;/title&gt;&lt;/head&gt;&quot;);
+  res.write(&quot;&lt;body&gt;&lt;h1&gt;Hello from my Node.js Server!&lt;/h1&gt;&lt;/body&gt;&quot;);
+  res.write(&quot;&lt;/html&gt;&quot;);
+  res.end(); //結束傳送資料給客戶端
+};
+
+module.exports = requestHandler
+
+exports.handler = requestHandler;
+exports.someText = 'Some hard coded text'
+</code></pre>
+<p>上面的程式碼分段解釋</p>
+<pre><code class="language-javascript">const url = req.url; // 我們取得了使用者輸入的url
+const method = req.method; // 使用者使用的請求方式(GET? POST?...)
+if (url === &quot;/&quot;) {
+  res.write(&quot;&lt;html&gt;&quot;);
+  res.write(&quot;&lt;head&gt;&lt;title&gt;Enter Message&lt;/title&gt;&lt;/head&gt;&quot;);
+  res.write(
+    '&lt;body&gt;&lt;form action=&quot;/message&quot; method=&quot;POST&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;message&quot;&gt;&lt;button type=&quot;submit&quot;&gt;Send&lt;/button&gt;&lt;/form&gt;&lt;/body&gt;'
+  );
+  res.write(&quot;&lt;/html&gt;&quot;);
+  return res.end(); //結束傳送資料給客戶端，不繼續執行下去，後面不會繼續執行下去，因此我們在這裡return
+}
+</code></pre>
+<p>這裡當我們輸入http://localhost:3000/，會得到上面回傳的表單，裡面可以輸入資料並且POST到路徑/message。</p>
+<pre><code class="language-javascript">if (url === &quot;/message&quot; &amp;&amp; method === &quot;POST&quot;) {
+    const body = [];
+    req.on(&quot;data&quot;, (chunk) =&gt; {
+      console.log(chunk);
+      body.push(chunk);
+    });
+
+    return req.on(&quot;end&quot;, () =&gt; {
+      const parsedBody = Buffer.concat(body).toString();
+      const message = parsedBody.split(&quot;=&quot;)[1];
+      console.log(parsedBody);
+      fs.writeFile(&quot;message.txt&quot;, message, (err) =&gt; {
+        res.statusCode = 302;
+        res.setHeader(&quot;Location&quot;, &quot;/&quot;);
+        return res.end();
+      });
+    });
+  }
+</code></pre>
+<p>當我們POST到/message後便會符合路徑url === &lsquo;message&rsquo;和 method === &lsquo;POST&rsquo;，</p>
+<p>這裡我們寫上req.on(&lsquo;data&rsquo;)代表監聽傳來的資料，這裡有一個要補充的知識就是Buffer，
+在接受傳輸的資料時候，伺服器會將一整個資料流(stream)分成好幾塊(chunk)接受，完成後再拼接一起轉換成可讀的資料。
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/CachePrefetching_StreamBuffers.png?20161019235817" alt="stream和Buffer"></p>
+<blockquote>
+<p>這裡這張圖並不是Node.js運行的樣子，只是為了說明資料會像這樣分成好幾塊。</p>
+</blockquote>
+<p>等到所有的資料都接收到，便會呼叫req.on(&ldquo;end&rdquo;,()=&gt; {/<strong>執行這裡的程式</strong>/})</p>
+<p>我們便可以調用Buffer.concat()的方法把資料串起來，並且轉換成字串。</p>
+<p>最後我們在使用fs.writeFile來寫入檔案，並且給http狀態碼302(轉址)，將頁面轉回原來的表單頁面。</p>
+<h2 id="結論">結論</h2>
+<p>我們可以發現因為js引擎是single thread也就是說一次只做一件事，如果今天有一個檔案很大，某個使用者請求了，</p>
+<p>那樣程式就會在原地等待讀取檔案結束才繼續進行下去。那樣另外一個使用者也發起同樣的請求，他便會需要等到前面的</p>
+<p>使用者請求完成才可以繼續處理該名使用者的請求，這相當不合理。因此我們的function就必須要是非同步的，</p>
+<p>當我們有請求的時候，將處理交給額外的worker pool，等到處理完的時候，便通知event loop裡面註冊的listener，</p>
+<p>去執行裡面的回調函數來處理接下來的步驟。</p>
 
     </div>
     <div class="article-footer">
@@ -263,7 +379,7 @@
   <ul class="post-copyright list-unstyled">
     <li class="post-copyright-link hidden-xs">
       <strong>Permalink: </strong>
-      <a href="https://hungchang.co/about/" title="自我介紹" target="_blank" rel="external">https://hungchang.co/about/</a>
+      <a href="https://hungchang.co/2022/05/nodestarter/" title="Node學習-Server、Stream/Buffer" target="_blank" rel="external">https://hungchang.co/2022/05/nodestarter/</a>
     </li>
     <li class="post-copyright-license">
       <strong>License: </strong>
@@ -293,9 +409,14 @@
 </div><nav class="bar bar-footer clearfix" data-stick-bottom>
     <div class="bar-inner">
         <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://hungchang.co/2022/05/node-path/" title="Node模組-path"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
             <li class="next">
-                <a href="https://hungchang.co/2022/05/struct/"
-                    title="struct"><span>Newer&nbsp;&nbsp;</span><i
+                <a href="https://hungchang.co/2022/05/typescriptbasic/"
+                    title="TypeScript"><span>Newer&nbsp;&nbsp;</span><i
                         class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
             
@@ -397,6 +518,7 @@
         hasInnerContainers: true,
     });
 </script>
+
 
 <script type="application/javascript">
 var doNotTrack = false;
