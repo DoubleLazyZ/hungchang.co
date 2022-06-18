@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Wyatt的筆記</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0</copyright>
-    <lastBuildDate>Sat, 28 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hungchang.co/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Javascript-原型鏈</title>
+      <link>https://hungchang.co/2022/05/javascript-prototype-chain/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/javascript-prototype-chain/</guid>
+      <description>Javascript-原型鏈 Javascript中除了純值之外，剩下的類型其實都是物件，每個物件除了頂層的物件中都有原型，在ECMAScri</description>
+    </item>
+    
+    <item>
+      <title>React初體驗</title>
+      <link>https://hungchang.co/2022/05/react/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/react/</guid>
+      <description>React 下載 下載node 下載react npx create-react-app my-app cd my-app npm start 閱讀官方docs後的心得 以資料結構想畫面，盡量讓資料結構跟畫面能夠結合在一起。 操控資料要使用u</description>
+    </item>
+    
+    <item>
+      <title>Go-net/HTTP創建伺服器</title>
+      <link>https://hungchang.co/2022/05/go-nethttp/</link>
+      <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/go-nethttp/</guid>
+      <description>創建一個Https伺服器 首先我們要先產生一個憑證 openssl req -newkey rsa:2048 -nodes -keyout server.key -x509 -days 365 -out server.crt 接著打上以下的程式碼 // https.go package main import ( &amp;quot;log&amp;quot; &amp;quot;net/http&amp;quot; ) func main() { srv := &amp;amp;http.Server{Addr: &amp;quot;:9001&amp;quot;, Handler: http.HandlerFunc(handle)} log.Printf(&amp;quot;Serving on http://0.0.0.0:9001&amp;quot;) log.Fatal(srv.ListenAndServeTLS(&amp;quot;server.crt&amp;quot;, &amp;quot;server.key&amp;quot;)) }</description>
+    </item>
     
     <item>
       <title>TypeScript</title>

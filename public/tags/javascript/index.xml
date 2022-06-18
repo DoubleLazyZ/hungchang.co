@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Wyatt的筆記</title>
+    <link>https://hungchang.co/tags/javascript/</link>
+    <description>Recent content in Javascript on Wyatt的筆記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>CC BY 4.0</copyright>
+    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hungchang.co/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript-原型鏈</title>
+      <link>https://hungchang.co/2022/05/javascript-prototype-chain/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/javascript-prototype-chain/</guid>
+      <description>Javascript-原型鏈 Javascript中除了純值之外，剩下的類型其實都是物件，每個物件除了頂層的物件中都有原型，在ECMAScri</description>
+    </item>
+    
+    <item>
+      <title>React初體驗</title>
+      <link>https://hungchang.co/2022/05/react/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/react/</guid>
+      <description>React 下載 下載node 下載react npx create-react-app my-app cd my-app npm start 閱讀官方docs後的心得 以資料結構想畫面，盡量讓資料結構跟畫面能夠結合在一起。 操控資料要使用u</description>
+    </item>
+    
+    <item>
+      <title>Go-net/HTTP創建伺服器</title>
+      <link>https://hungchang.co/2022/05/go-nethttp/</link>
+      <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/go-nethttp/</guid>
+      <description>創建一個Https伺服器 首先我們要先產生一個憑證 openssl req -newkey rsa:2048 -nodes -keyout server.key -x509 -days 365 -out server.crt 接著打上以下的程式碼 // https.go package main import ( &amp;quot;log&amp;quot; &amp;quot;net/http&amp;quot; ) func main() { srv := &amp;amp;http.Server{Addr: &amp;quot;:9001&amp;quot;, Handler: http.HandlerFunc(handle)} log.Printf(&amp;quot;Serving on http://0.0.0.0:9001&amp;quot;) log.Fatal(srv.ListenAndServeTLS(&amp;quot;server.crt&amp;quot;, &amp;quot;server.key&amp;quot;)) }</description>
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>https://hungchang.co/2022/05/typescriptbasic/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/typescriptbasic/</guid>
+      <description>初學TypeScript 原本想用Go學習後端，但是大家建議先學好TS並且加上Node.js練習，等到熟悉了再學習Go，加上工作剛好 未來有需求</description>
+    </item>
+    
+    <item>
+      <title>Node學習-Server、Stream/Buffer</title>
+      <link>https://hungchang.co/2022/05/nodestarter/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/nodestarter/</guid>
+      <description>初學Node HTTP,HTTPS 超文本傳輸協定，瀏覽器與伺服器交換資料的協定。 Http: Hyper Text Transfer Protocol Https: Hyper Text Transfer Protocol Secure。 HTTP + Data Encryption (during Transmission)。 Node</description>
+    </item>
+    
+    <item>
+      <title>Node模組-path</title>
+      <link>https://hungchang.co/2022/05/node-path/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/node-path/</guid>
+      <description>Node模組-path Node讀取資料夾及文件的路徑經常使用的。 resolve使用: path.resolve const path = require(&#39;path&#39;); const basePath = &#39;\\User\\Wyatt&#39;; const filename = &#39;test.txt&#39;; // const filePath = basePath + &#39;/&#39; + filename; //使用拼接</description>
+    </item>
+    
+    <item>
+      <title>array</title>
+      <link>https://hungchang.co/2022/05/array/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/array/</guid>
+      <description>全文皆來自自學Youtube的教學影片Learn Go Programming - Golang Tutorial for Beginners，講得相當好，大家可以點進去學習。 Array array是一個固定長度的</description>
+    </item>
+    
+    <item>
+      <title>struct</title>
+      <link>https://hungchang.co/2022/05/struct/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/05/struct/</guid>
+      <description>struct struct類型 struct就很像是類的概念 package main import &amp;quot;fmt&amp;quot; func main() { type game struct { name string stars int category []string } fallguys := game{name: &amp;quot;fallguys&amp;quot;} // 第一種賦值方法 fallguys = game{ name: &amp;quot;糖豆人&amp;quo</description>
+    </item>
+    
+    <item>
+      <title>自我介紹</title>
+      <link>https://hungchang.co/about/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/about/</guid>
+      <description>這個網站主要是想記錄自己學習的筆記， 放到網路上來主要是練習部屬之外， 平常還能夠上來翻資料，不用擔心找不到自己的筆記， 也可以讓自己知道自己曾經</description>
+    </item>
+    
+  </channel>
+</rss>
