@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>
-        Javascript-原型鏈 - Wyatt的筆記
+        I/O (2022/06/27 - 2022/07/01) - Wyatt的筆記
       </title>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,30 +20,30 @@
     <meta http-equiv="window-target" content="_top" />
     
     
-    <meta name="description" content="Javascript-原型鏈(Prototype chain)" />
+    <meta name="description" content="I/O (2022/06/27 - 2022/07/01)" />
     <meta name="generator" content="Hugo 0.92.2 with theme pure" />
-    <title>Javascript-原型鏈 - Wyatt的筆記</title>
+    <title>I/O (2022/06/27 - 2022/07/01) - Wyatt的筆記</title>
     
     
     <link rel="stylesheet" href="https://hungchang.co/css/style.min.e64d754037c0ee0ec4e20ab1d6f07740ace61729bc03850559b8caa21ae4a597.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-    <meta property="og:title" content="Javascript-原型鏈" />
-<meta property="og:description" content="Javascript-原型鏈(Prototype chain)" />
+    <meta property="og:title" content="I/O (2022/06/27 - 2022/07/01)" />
+<meta property="og:description" content="I/O (2022/06/27 - 2022/07/01)" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hungchang.co/2022/05/javascript-prototype-chain/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-05-31T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-05-31T00:00:00+00:00" />
+<meta property="og:url" content="https://hungchang.co/2022/06/inputoutput2022-06-27/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-06-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-06-27T00:00:00+00:00" />
+<meta property="og:see_also" content="https://hungchang.co/2022/05/go-nethttp/" /><meta property="og:see_also" content="https://hungchang.co/2022/05/array/" /><meta property="og:see_also" content="https://hungchang.co/2022/05/struct/" />
 
-
-<meta itemprop="name" content="Javascript-原型鏈">
-<meta itemprop="description" content="Javascript-原型鏈(Prototype chain)"><meta itemprop="datePublished" content="2022-05-31T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-05-31T00:00:00+00:00" />
-<meta itemprop="wordCount" content="351">
-<meta itemprop="keywords" content="Javascript," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Javascript-原型鏈"/>
-<meta name="twitter:description" content="Javascript-原型鏈(Prototype chain)"/>
+<meta itemprop="name" content="I/O (2022/06/27 - 2022/07/01)">
+<meta itemprop="description" content="I/O (2022/06/27 - 2022/07/01)"><meta itemprop="datePublished" content="2022-06-27T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-06-27T00:00:00+00:00" />
+<meta itemprop="wordCount" content="2240">
+<meta itemprop="keywords" content="TypeScript,React,Data structure,MongoDB," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="I/O (2022/06/27 - 2022/07/01)"/>
+<meta name="twitter:description" content="I/O (2022/06/27 - 2022/07/01)"/>
 
     <!--[if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -226,8 +226,8 @@
       <h1 itemprop="name">
   <a
     class="article-title"
-    href="/2022/05/javascript-prototype-chain/"
-    ><span style="background-color:#6667ab;width: auto; height:100%; padding: 4px 3px;margin: 5px;border-radius: 2px;color: white">[Javascript]</span>Javascript-原型鏈</a
+    href="/2022/06/inputoutput2022-06-27/"
+    ><span style="background-color:#6667ab;width: auto; height:100%; padding: 4px 3px;margin: 5px;border-radius: 2px;color: white">[Daily]</span>I/O (2022/06/27 - 2022/07/01)</a
   >
 </h1>
 
@@ -235,41 +235,249 @@
         
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://hungchang.co/2022/05/javascript-prototype-chain/" class="article-date">
-  <time datetime="2022-05-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-05-31</time>
+<a href="https://hungchang.co/2022/06/inputoutput2022-06-27/" class="article-date">
+  <time datetime="2022-06-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-06-27</time>
 </a>
 </span>
 <span class="article-category">
   <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/javascript/"> Javascript </a>
+  <a class="article-category-link" href="/categories/daily/"> Daily </a>
 </span>  
   <span class="article-tag">
     <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/javascript/"> Javascript </a>
+    <a class="article-tag-link" href="/tags/typescript/"> TypeScript </a>
+    <a class="article-tag-link" href="/tags/react/"> React </a>
+    <a class="article-tag-link" href="/tags/data-structure/"> Data structure </a>
+    <a class="article-tag-link" href="/tags/mongodb/"> MongoDB </a>
   </span>
 
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 351 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 2240 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 5 minutes </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <h1 id="javascript-原型鏈">Javascript-原型鏈</h1>
-<p>Javascript中除了純值之外，剩下的類型其實都是物件，每個物件除了頂層的物件中都有原型，在ECMAScript標準裡面是寫成someObj.[[Prototype]]。</p>
-<p>在瀏覽器中我們常會用.__proto__取得當前物件的原型物件，要注意的是.__proto__是瀏覽器實做訪問原型的方便寫法，正式的讀寫應該使用 <strong>Object.getPrototypeOf(someObj)</strong> 以及 <strong>Object.setPrototypeOf()</strong> 這兩個訪問器。但是為了理解，這裡講都會使用.__proto__來做筆記。</p>
-<h3 id="訪問原型鏈">訪問原型鏈</h3>
-<p>當我們對於一個物件查找屬性找不到時，JS會往原型物件找。</p>
-<pre><code class="language-javascript">var person = {
-  name: &quot;ZZ&quot;,
-  age: 24
+      <h1 id="io-20220627---20220701">I/O (2022/06/27 - 2022/07/01)</h1>
+<p>每天記錄每天學到什麼，主要是因為這樣子才能及時的輸出，發現要寫長文對自己來說太困難了。而且覺得效率也是一個問題，想要先累積出一些作品，實作比較重要，這樣發發每天的心得比較不會給自己有壓力。</p>
+<h2 id="20220627">2022/06/27</h2>
+<h3 id="typescript">Typescript</h3>
+<h4 id="enum">enum</h4>
+<p>enum 列舉，可以把變數範圍在某些範圍下進行存取，</p>
+<pre><code class="language-typescript=">enum directions {EAST, WEST, SOUTH, NORTH};
+console.log(directions.EAST);
+
+enum permission {ADMIN = 2, READ_ONLY, WRITE_ONLY}
+console.log(permission.ADMIN); // 2
+console.log(permission.READ_ONLY); // 3 會自動遞增加1
+export {}
+</code></pre>
+<p>編譯出來的js程式碼如下</p>
+<pre><code class="language-javascript=">var directions;
+(function (directions) {
+    directions[directions[&quot;EAST&quot;] = 0] = &quot;EAST&quot;;
+    directions[directions[&quot;WEST&quot;] = 1] = &quot;WEST&quot;;
+    directions[directions[&quot;SOUTH&quot;] = 2] = &quot;SOUTH&quot;;
+    directions[directions[&quot;NORTH&quot;] = 3] = &quot;NORTH&quot;;
+})(directions || (directions = {}));
+;
+</code></pre>
+<p>這裡有所謂的反射性，directions[&ldquo;EAST&rdquo;] = 0，這行賦值回傳的也會是0，相當於directions[0] = &ldquo;EAST&rdquo;</p>
+<h4 id="tuple">Tuple</h4>
+<p>這個字念tu(ㄩ)ple的音，之前一直唸成a發音。tuple就像陣列，只是與陣列不同的是，他已經規定好長度以及每個索引值裡面的類別了。</p>
+<pre><code class="language-typescript=">let array:(number|string)[] // 這是陣列
+let array: Array&lt;string | number&gt; // 這跟上面一樣是陣列
+let role:[number, string]; // 這是元組
+role = [0, &quot;admin&quot;];
+</code></pre>
+<p>我們可能定義了第一個當成某個角色的id，並且指定第二個索引值是角色名稱的字串。我們不能夠隨意的換成不符合的類型。</p>
+<pre><code class="language-typescript=">let role:[number, string];
+role = [0, true]; // 不行
+</code></pre>
+<p>但要注意的事情是當tuple使用push時，他會檢測不出來不符合型別註記的情況出現。</p>
+<pre><code class="language-typescript=">let role:[number, string];
+role = [0, true]; // 不行
+role.push(&quot;a&quot;) // 不會報錯要小心
+</code></pre>
+<blockquote>
+<p><a href="https://ithelp.ithome.com.tw/articles/10221546">TypeScript 資料型別 - 元組(Tuple) &amp; 列舉(Enum)-Kira</a>
+這篇文章講得很清楚。</p>
+</blockquote>
+<h3 id="react">React</h3>
+<p>今天本來想跳戰線上課程的練習專案的，但是體力有點耗盡了，因此我只先創建了一個新的專案。明天再來繼續挑戰。</p>
+<pre><code class="language-bash=">npx create-react-app practice-project
+</code></pre>
+<h2 id="20220629">2022/06/29</h2>
+<p>今天上班處理了關於時間的問題，date-fns不管怎麼樣使用format，時間都會相差8小時，後來未來即時解決問題我決定暫時先自行處理，使用Date物件拿到年、月、日、時、分、秒，再加上zero pad換成想要的格式。</p>
+<h2 id="20220702">2022/07/02</h2>
+<p>由於每次接到API資料的時候總覺得，自己重新產生想要的資料總是會重複做很多次一樣的步驟才達成目標，讓我有了想要學習資料結構的心，因此我開始學習了資料結構。</p>
+<h3 id="data-structure">Data structure</h3>
+<h4 id="linked-list鏈結串列">Linked List(鏈結串列)</h4>
+<p>一般來說，產生陣列必須要先指定陣列長度。</p>
+<pre><code class="language-java=">String[] myArr = new String[10];
+</code></pre>
+<p>記憶體會找一個地方，留10個連續的記憶體空間使用。</p>
+<p>而Linked List在記憶體上不一定會是連續的位置。
+Linked List只包含<code>head</code>和<code>length</code>兩個property。</p>
+<ul>
+<li>Linked List Advantage</li>
+<li>可以不斷加入element，無限制次數。反之，array則會要調整長度</li>
+<li>加入element的速度很快。
+在js中如果指定一個空陣列，一開始給的長度會是1，接著根據加入array的元素才會不斷增加記憶體位置來儲存，從1開始2,4,8,16&hellip;，需要不斷的去更改記憶體分配。
+Linked List要更改，例如刪除，只需要將指向下一個head的pointer跳過刪除的元素到下一個就完成了。而Array在刪除某個元素之後必須將之後的元素全部的都往前移。</li>
+</ul>
+<h5 id="javascript寫出linked-list">javascript寫出Linked List</h5>
+<pre><code class="language-javascript=">// 每一個Linked List裡的元素,會有元素的value，以及指向下一個元素。
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
 }
 
-person.__proto__.height = 1.65
-console.log(person.height) // 1.65
+// 整個LinkedList只有兩個property，一個是head，一個是長度，一開始沒有長度，也沒有head
+class LinkedList {
+  constructor() {
+    this.head = null;
+    this.length = 0;
+  }
+    
+ // 新增元素進入Linked List的最後面
+  push(value) {
+    let newNode = new Node(value);
+    // Linked List起頭要是沒有東西的話則為鏈結串列的第一個元素
+    if(this.head === null) {
+      this.head = newNode;
+    } else {
+      // 現在的Node會等於第一個head
+      let currentNode = this.head;
+      //往下一個找 只要有指向另外一個元素
+      while(currentNode.next !== null) {
+        currentNode = currentNode.next;
+      }
+      // 找到最後一個只後currentNode.next === null給新的值
+      currentNode.next = newNode;
+    }
+    this.length++;
+  }
+
+  printAll() {
+    if(this.length === 0) {
+      console.log('Nothing in this LinkedList!');
+      return;
+    }
+    let currentNode = this.head;
+    while(currentNode !== null) {
+      console.log(currentNode.value);
+      currentNode = currentNode.next;
+    }
+  }
+}
+
+let myLinkedList = new LinkedList();
+myLinkedList.push(&quot;Wyatt&quot;);
+myLinkedList.push(&quot;Wayne&quot;);
+myLinkedList.push(&quot;Kuang&quot;);
+myLinkedList.printAll();
+
+console.log(myLinkedList);
 </code></pre>
-<p>原本應該沒有height屬性，但在person物件的原型物件上加上屬性後便會從person往上找person.__proto__找有沒有height屬性，將結果輸出。</p>
-<p>然而</p>
-<h6 id="參考連結">參考連結</h6>
-<p><a href="https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">MDN</a></p>
+<h3 id="mongodb">MongoDB</h3>
+<p>NoSQL的特性</p>
+<ul>
+<li>No data schema(資料表及欄位的設計)</li>
+<li>Fewer Data Realation</li>
+</ul>
+<h4 id="mongodb的使用">MongoDB的使用</h4>
+<pre><code class="language-javascript=">npm install mongodb
+</code></pre>
+<h4 id="連接mongodb">連接MongoDb</h4>
+<pre><code class="language-javascript=">// database.js
+const mongodb = require(&quot;mongodb&quot;);
+const MongoClient = mongodb.MongoClient;
+
+let _db; // 底線代表只想在這個文件內部讀取到
+
+const mongoConnect = () =&gt; {
+  MongoClient.connect(
+    &quot;mongodb+srv://&lt;使用者名稱&gt;:&lt;使用者密碼&gt;@cluster0.ykhk6.mongodb.net/shop?retryWrites=true&amp;w=majority&quot;
+  )
+    .then((client) =&gt; {
+      _db = client.db(); // 可以跟database互動
+    })
+    .catch((err) =&gt; {
+      throw err;
+    })
+}
+
+const getDb = () =&gt; {
+    if(_db) {
+        return _db;
+    }
+    throw &quot;No database Found!&quot;
+}
+
+exports.mongoConnect = mongoConnect;
+exports.getDb = getDb;
+</code></pre>
+<h4 id="db的各種操作">db的各種操作</h4>
+<ol>
+<li>創建collections，新增一比資料。</li>
+</ol>
+<pre><code class="language-javascript=">const mongodb = require(&quot;mongodb&quot;);
+const getDb = require(&quot;../util/database&quot;).getDb;
+// 會自動新增products collection，新增一筆資料user資料
+const db = getDb();
+db.collection('products')
+.insertOne({
+  username: &quot;wyatt&quot;,
+  email: &quot;test@gmail.com&quot;,
+  id: new mongodb.ObjectId(id) // 主要是使用mongodb產生的id物件
+})
+</code></pre>
+<ol start="2">
+<li>查找一筆資料
+拿課程中部份程式做紀錄，使用find({key: 條件})，物件裡面第一個是找到的key，第二個是要寫符合的條件。</li>
+</ol>
+<p>$in是特別用法會將所有我們提供javascript陣列的字串，查詢是否有符合的條件，並且使用toArray()，拿到所有的資料並轉換成陣列可以使用。</p>
+<p>這裡要特別注意的是我們拿到的new ObjectId雖然是一個物件，雖然看上去一樣，但在使用===類型檢測上會不一樣，所以記得要使用.toString()</p>
+<pre><code class="language-javascript=">getCart() {
+    const db = getDb();
+    const productIds = this.cart.items.map((i) =&gt; {
+      return i.productId;
+    });
+    return db
+      .collection(&quot;products&quot;)
+      .find({ _id: { $in: productIds } }) // 主要是這裡
+      .toArray()
+      .then((products) =&gt; {
+        return products.map((p) =&gt; {
+          return {
+            ...p,
+            quantity: this.cart.items.find((i) =&gt; {
+              return i.productId.toString() === p._id.toString();
+            }).quantity,
+          };
+        });
+      });
+  }
+</code></pre>
+<ol start="3">
+<li>更新一比資料
+更新資料也很簡單，db.collection(&ldquo;users&rdquo;).updateOne({},{})，
+第一個參數填入要改的資料，第二個使用$set可以指定要改的欄位的value。</li>
+</ol>
+<pre><code class="language-javascript=">const updatedCart = { items: updatedCartItems };
+const db = getDb();
+return db
+  .collection(&quot;users&quot;)
+  .updateOne(
+    { _id: new ObjectId(this._id) },
+    { $set: { cart: updatedCart } }
+  );
+</code></pre>
+<ol start="4">
+<li>刪除一筆資料
+可以使用update把資料清空。</li>
+</ol>
 
     </div>
     <div class="article-footer">
@@ -277,7 +485,7 @@ console.log(person.height) // 1.65
   <ul class="post-copyright list-unstyled">
     <li class="post-copyright-link hidden-xs">
       <strong>Permalink: </strong>
-      <a href="https://hungchang.co/2022/05/javascript-prototype-chain/" title="Javascript-原型鏈" target="_blank" rel="external">https://hungchang.co/2022/05/javascript-prototype-chain/</a>
+      <a href="https://hungchang.co/2022/06/inputoutput2022-06-27/" title="I/O (2022/06/27 - 2022/07/01)" target="_blank" rel="external">https://hungchang.co/2022/06/inputoutput2022-06-27/</a>
     </li>
     <li class="post-copyright-license">
       <strong>License: </strong>
@@ -308,14 +516,9 @@ console.log(person.height) // 1.65
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="https://hungchang.co/2022/05/react/" title="React初體驗"><i
+                <a href="https://hungchang.co/2022/05/javascript-prototype-chain/" title="Javascript-原型鏈"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="https://hungchang.co/2022/06/inputoutput2022-06-27/"
-                    title="I/O (2022/06/27 - 2022/07/01)"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
             
             <li class="toggle-toc">

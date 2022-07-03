@@ -6,10 +6,19 @@
     <description>Recent content on Wyatt的筆記</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0</copyright>
-    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hungchang.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I/O (2022/06/27 - 2022/07/01)</title>
+      <link>https://hungchang.co/2022/06/inputoutput2022-06-27/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/06/inputoutput2022-06-27/</guid>
+      <description>I/O (2022/06/27 - 2022/07/01) 每天記錄每天學到什麼，主要是因為這樣子才能及時的輸出，發現要寫長文對自己來說太困難了。而且覺得效率也是一個問題，想要先累積出一些作品</description>
+    </item>
     
     <item>
       <title>Javascript-原型鏈</title>
