@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on Wyatt的筆記</title>
+    <title>JavaScript on Wyatt的筆記</title>
     <link>https://hungchang.co/tags/javascript/</link>
-    <description>Recent content in Javascript on Wyatt的筆記</description>
+    <description>Recent content in JavaScript on Wyatt的筆記</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0</copyright>
-    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hungchang.co/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I/O (2022/07/04 - 2022/07/10)</title>
+      <link>https://hungchang.co/2022/07/inputoutput2022-07-04/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungchang.co/2022/07/inputoutput2022-07-04/</guid>
+      <description>I/O (2022/07/04 - 2022/07/10) 上禮拜還是沒有每天都寫紀錄，感覺進度差了一些，要持續的output很重要。 2022/07/04 每天都在處理圖片沒寫到程式感到疲憊。今天有遇到一個問題，</description>
+    </item>
     
     <item>
       <title>I/O (2022/06/27 - 2022/07/01)</title>
